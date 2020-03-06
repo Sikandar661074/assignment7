@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="first">
+        <h1>Learn to code by <br> watching others</h1>
+        <p>See how experienced developers solve problems in real time. <br>Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
+    </div>
+    <div class="second">
+        <button><span>Try it free 7 days</span> then $20/mo.Thereafter</button>
+        <div class="form">
+            <form >
+                <div>
+                    <input type="text" onchange="validatefname()" class="input"  id="fname" placeholder="Name">
+                    <p id="para"></p>
+                </div>
+    
+                <div>
+                    <input type="text" onchange="validatelname()" class="input" id="lname" placeholder="Last Name">
+                    <p id="para2"></p>
+                </div>
+                <div>
+                    <input class="input" onchange="validatemail()" id="mail" placeholder="Email">
+                    <p id="para3"></p>
+                </div>
+                <div>
+                    <input type="password" onchange="validatepass()" class="input" id="pass" placeholder="Password">
+                    <p id="para4"></p>
+                </div>
+                <div>
+                    <input type="submit" onclick="changename()" id="btn" value="CLAIM YOUR FREE TRIAL">
+                    <p class="terms">By clicking the button, you are agreeing to our <span id="terms"class="terms">Terms and Services</span></p>
+                </div>
+            </form>
+        </div>
+      
+    </div>
+
+</body>
+
+
+</html>

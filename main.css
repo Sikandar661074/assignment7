@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url(images/bg-intro-desktop.png);
+}
+
+p{
+    font-size: 22px;
+    margin-bottom: 2vh;
+    color: rgba(255, 255, 255, 0.966);
+    text-align: left;
+}
+h1{
+    margin-bottom: 3vh;
+    color:#fff;
+    font-size:2.5rem;
+    line-height: 40px;
+}
+.first{
+    padding-left:18vw;
+    padding-top: 38vh;
+    width: 50vw;
+    height: 100vh;
+}
+.first p{
+    font-size: 13px;
+}
+.second{
+    margin-left: 2vw;
+    padding-top: 10vh;
+    text-align: center;
+    margin-top: 8vh;
+    
+}
+button{
+    background-color: hsl(248, 32%, 49%);
+    border: 0.5px solid hsl(248, 32%, 49%);
+    border-radius: 5px;
+    height: 7vh;
+    width: 32vw;
+    margin-bottom: 3vh;
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+span{
+    color:#fff;
+    font-weight: 500;
+}
+.form{
+    border-radius: 5px;
+    background-color: white;
+    width: 32vw;
+    height: 60vh;
+    position: relative;
+}
+form{
+    position: absolute;
+    top: 5vh;
+    left:3vw;
+}
+
+form div{
+    margin-bottom:3vh;
+}
+h5{
+    font-size: 22px;
+    margin-bottom: 2vh;
+    color: rgba(255, 255, 255, 0.966);
+    text-align: left;
+}
+
+.input{
+    border-style: hidden;
+    border: 1px solid hsl(246, 25%, 77%);
+    height: 7vh;
+    width: 26vw;
+    padding-left: 2vw;
+    border-radius: 5px;
+}
+
+#btn{
+    color: rgba(255, 255, 255, 0.966);
+    background-color: hsl(154, 59%, 51%); 
+    box-shadow: hsl(246, 25%, 77%);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 26vw;
+    height: 7vh;
+}
+.input:focus, .input:hover{
+    border-bottom: 3px solid hsl(0, 100%, 74%) ;
+}
+
+
+#btn:focus{
+    background-color: rgba(60, 213, 0, 0.815);
+    border-color:rgba(60, 213, 0, 0.815) ;
+}
+.terms{
+    padding-top: 1vh;
+    text-align: center;
+    font-size: 10px;
+    color: #ccc;
+    font-weight: 600;
+}
+#terms{
+    color:hsl(0, 100%, 74%) ;
+}
+#para{
+    color: hsl(0, 100%, 74%);
+    font-size: 8px;
+    position: relative;
+    padding-left: 17.7vw;
+}
+#para2{
+    color: hsl(0, 100%, 74%);
+    font-size: 8px;
+    position: relative;
+    left:17.7vw;
+}
+#para3{
+    color: hsl(0, 100%, 74%);
+    font-size: 8px;
+    position: relative;
+    left: 17.7vw;
+}
+#para4{
+    color: hsl(0, 100%, 74%);
+    font-size: 8px;
+    position: relative;
+    left: 20.5vw;
+}
